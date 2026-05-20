@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-light p-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-light">Yemi Tech digital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What you'll learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#question" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-dark text-light text-center text-md-start pb-4 pb-md-0">
+        <div class="container">
+            <div class="d-md-flex align-items-center">
+                <div class="px-lg-5">
+                    <h1>Become a <span class="text-warning">Web Developer</span> </h1>
+                    <p class="lead">Go from absolute beginner to becoming a paid professionals. Working on real life
+                        projects</p>
+                    <button class="btn bg-primary text-light" data-bs-toggle="modal"
+                        data-bs-target="#registerModal">Register Now!</button>
+                </div>
+                <img src="images/yemitech.png" alt="yemitechdigital"
+                    class="img-fluid rounded-circle bg-primary d-none w-50 d-md-block">
+            </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and we'll get back to you</p>
+                    <div class="mb-3">
+                        <label for="firstname" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Enter Firstname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastname" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Enter Lastname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Enter Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="Enter Phone Number">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Newsletter-->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between">
+                <h3 class="text-center text-md-start">Sign Up For Our Newsletter</h3>
+
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn btn-dark" type="button" id="button-addon2">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-1">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h1><i class="bi bi-laptop"></i></h1>
+                            <h3 class="card-title">Virtual</h3>
+                            <p class="card-text">Learn remotely with interactive and engaging online courses.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body">
+                            <h1><i class="bi bi-briefcase"></i></h1>
+                            <h3 class="card-title">Project Based</h3>
+                            <p class="card-text">Gain practical skills through real-world project-based learning</p>
+                            <a href="#" class="btn btn-dark">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body">
+                            <h1><i class="bi bi-award"></i></h1>
+                            <h3 class="card-title">Certificate</h3>
+                            <p class="card-text">Earn certificate to showcase your skills and achievement.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--intro section-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="images/webdev.png" class="img-fluid">
+                </div>
+                <div class="col-md text-center">
+                    <h2>Go from zero to Hero</h2>
+                    <p class="lead">Transform your skills form beginner to advanced with our comprehensive courses
+                        designed for all levels.</p>
+                    <p>Whether you're just starting out or looking to deepen your expertise, our tailored program povide
+                        hands-o learning experiences to help you suceed. With guidance from industry professionals,
+                        you'll build confidence and master the skills you need to thrive in your career.
+                    </p>
+                    <a href="#" class="btn btn-light"><i class="bi bi-chevron-right"></i>Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--learn section-->
+    <section class="bg-dark py-5" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between text-center text-md-start">
+                <div class="col-md">
+                    <h2 class="text-light">Master ReactJS, NodeJS, ExpressJS, MongoDB, and Next.js</h2>
+                    <p class="lead text-light">Become a full-stack developer with our comprehensive courses on ReactJS,
+                        NodeJS, ExpressJS, MongoDB, and Next.js.</p>
+                    <p class="text-light">
+                        Learn to build responsive front-end applications with ReactJS, optimize your development with
+                        Next.js, create powerful back-end services using NodeJS and ExpressJS, and efficiently manage
+                        database with MogoDB. Our hand-on courses offer real-world projects and expert guidance to help
+                        you master modern web development technologies.
+                    </p>
+                    <a href="#" class="btn btn-light my-2"><i class="bi bi-chevron-right"></i>Read more</a>
+                </div>
+                <div class="col-md">
+                    <img src="images/reactn.png" class="img-fluid" alt="react">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Accordion section-->
+    <section class="py-5" id="question">
+        <div class="container">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div class="accordion" id="accordionCourseFAQ">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is the duration of this course?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionCourseFAQ">
+                        <div class="accordion-body">
+                            The course is designed to be completed over a span of 7 months, with
+                            a commitment of 5-7 hour per week. Each weeks includes video lectures, reading material, and
+                            assignments that help reinforce the concepts learned. While the course is self-paced, we
+                            encourage participants to stay on track with the weekly schedule to maximize their larning
+                            experience.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What will I be able to build?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionCourseFAQ">
+                        <div class="accordion-body">
+                            By the end of the course, you will have the skills to build several web applications.
+                            Examples include a **personal portfolio website** that showcase your Projects and
+                            skills, a **dynamic e-commerce platform** with user authentication and payment
+                            integration, and a **real time chat application** using Websockets. Additionally, you
+                            will learn to create a **task management tool** similar to Trello uing ReactJS for the
+                            front end, NodeJS and ExpreeJS for the backend, and MongoDB as the database. You may
+                            also build a small applications that integrate with third-party APIs, such as a
+                            **wheather dashboard** that fetches real-time data from a whether API. The final project
+                            will be a comprehensive application that incorporates all these skills, serving a
+                            capstone to demonstrate your proficiency and creativity, providing you with a portfolio
+                            piece to show potential employers or clients.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Is there a certificate after the training?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionCourseFAQ">
+                        <div class="accordion-body">
+                            Yes, upon succssful completing the course and all of its assessments, you will
+                            receive a certificate of completion. This certificate is a great way to showcase
+                            your newly acquired skill on your resume, LinkedIn profile, or personal website. It
+                            is important to note that the certificate is not an official accredition but serves
+                            as recognition of your hard work and dedication in completing the course.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What prerequisites do peed for this course?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionCourseFAQ">
+                        <div class="accordion-body">
+
+                            This course is designed for beginners, so no prior programming experience is required.
+                            However, a basic understanding of how to use a computer and navigate the internet is
+                            helpful. We also recommend having a good grasp of problem-solving skills and logical
+                            thinking. All necessary software tools and resources will be provided, and you will be
+                            guided step-by-step through the setup and use of each one.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            What kind of support will I receive during the course?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionCourseFAQ">
+                        <div class="accordion-body">
+                            Throughout the course, you will have access to a range of support options. These include a
+                            dedicated course forum where you can ask questions and get help from instructors and fellow
+                            students, weekly live Q&A sessions, and 24/7 access to all course materials. If you
+                            encounter any issues or have questions, our support team is available via email or chat.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Intructor section-->
+    <section class="py-5 bg-primary" id="instructors">
+        <div class="container">
+            <h2 class="text-center text-light">Our Instructors</h2>
+            <p class="lead text-light text-center">Our instructors are 5 star rated instructors with over 5+ years
+                working as dedicted web developers in the industry</p>
+            <div class="row g-4 text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <img src="images/yemitech.png" alt="" class="rounded-circle img-fluid mb-3">
+                            <h2 class="card-title">Yemi</h2>
+                            <p class="card-text">
+                                Yemi is a seasoned full-stack developer and mentor, specializing in building scalable
+                                web applications and teaching the MERN stack.
+                            </p>
+                            <a href="" class="bi bi-twitter text-dark"></a>
+                            <a href="" class="bi bi-facebook text-dark"></a>
+                            <a href="" class="bi bi-linkedin text-dark"></a>
+                            <a href="" class="bi bi-instagram text-dark"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt=""
+                                class="rounded-circle img-fluid mb-3">
+                            <h2 class="card-title">Helen Paul</h2>
+                            <p class="card-text">
+                                An expert in user experience design, Helen has over 10 years of experience working with
+                                top global brands.
+
+
+                            </p>
+                            <a href="" class="bi bi-twitter text-dark"></a>
+                            <a href="" class="bi bi-facebook text-dark"></a>
+                            <a href="" class="bi bi-linkedin text-dark"></a>
+                            <a href="" class="bi bi-instagram text-dark"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/men/1.jpg" alt=""
+                                class="rounded-circle img-fluid mb-3">
+                            <h2 class="card-title">Mark Philip</h2>
+                            <p class="card-text">
+                                A full-stack developer with a passion for teaching, Mark specializes in JavaScript
+                                frameworks and backend systems.
+                            </p>
+                            <a href="" class="bi bi-twitter text-dark"></a>
+                            <a href="" class="bi bi-facebook text-dark"></a>
+                            <a href="" class="bi bi-linkedin text-dark"></a>
+                            <a href="" class="bi bi-instagram text-dark"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/men/5.jpg" alt=""
+                                class="rounded-circle img-fluid mb-3">
+                            <h2 class="card-title">
+
+                                James Brown</h2>
+                            <p class="card-text">
+                                James is a data scientist with extensive knowledge in machine learning, Al, and big data
+                                technologies.
+                            </p>
+                            <a href="" class="bi bi-twitter text-dark mx-1"></a>
+                            <a href="" class="bi bi-facebook text-dark mx-1"></a>
+                            <a href="" class="bi bi-linkedin text-dark mx-1"></a>
+                            <a href="" class="bi bi-instagram text-dark mx-1"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <h2 class="text-center">
+                        Contact Info
+                    </h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span class="fw-bold">Main Location:</span> Ikeja, Lagos</li>
+                        <li class="list-group-item"><span class="fw-bold">Enrollment Phone:</span> enrollment@gmail.com
+                        </li>
+                        <li class="list-group-item"><span class="fw-bold">Student Phone:</span> 08076060329</li>
+                        <li class="list-group-item"><span class="fw-bold">Stuudent Email:</span> student@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md text-center">
+                    <img src="images/upcontact.png" class="img-fluid w-50">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer section-->
+    <section class="py-5 bg-dark text-light position-relative">
+        <div class="container text-center">
+            <p class="lead">copyright @ 2026 Fullstack Bootcamp</p>
+            <a href="#" class="position-fixed bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
